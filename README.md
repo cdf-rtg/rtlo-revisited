@@ -1,5 +1,5 @@
 # Looking from Right to Left - RTLO Attacks Revisited
-- REDTEECON 1 Conference Talk
+REDTEECON 1 Conference Talk (18th August 2023)
 - Researchers
   - Chong Kai Jie
   - Isaac Ethan Chua
