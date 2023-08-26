@@ -1,0 +1,103 @@
+body{
+	background:white;
+	height:700px;
+	margin:0px;
+	padding:0px;
+    font-family: 'Roboto', sans-serif;
+	
+} 
+
+#signin {
+	color: black; 
+	font-size: 20px; 
+	margin-top: 10px;
+}
+#usegoogleacct {
+	color: black; 
+	font-size: 15px; 
+	margin-top: -10px;
+}
+
+#form1{
+	margin-top:100px;
+	width:445px;
+	height:465px;
+    padding-top:40px;
+	background:white;
+	box-shadow: 0px 1px 1px 1px #c6c1c1;
+    border-radius: 8px;
+} 
+#mailbox{
+	width:270px;
+	height:42px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	
+	font-size:18px;
+	margin-top:20px;
+	border-width: 0px;
+	border-style:solid;
+	border-color: blue;
+}
+#nextBtn{
+	width:80px;
+	height:35px;
+	margin-top: 60px;
+	background:#498af2;
+	font-size:14px;
+	color:white;
+	border-radius:3px 3px 3px 3px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+	float: right;
+	margin-right: 40px;
+	
+}
+#forgotemail{
+	float:left;
+	margin-top:30px;
+	font-size:13px;
+	color:#498af2;
+	padding-left:56px;
+	font-weight:bold;
+}
+#forgotemail a{
+	color:#498af2;
+	text-decoration:none;
+}
+
+#info {
+	float: left;
+	font-size: 14px;
+	padding-left: 56px;
+	margin-top: 60px;
+}
+
+#learnmore{
+	float:left;
+	margin-top:-5px;
+	font-size:13px;
+	color:#498af2;
+	padding-left:56px;
+	font-weight:bold;
+}
+#learnmore a{
+	color:#498af2;
+	text-decoration:none;
+}
+
+#createaccount{
+	margin-top: 70px;
+	float:left;
+	font-size:13px;
+	color:#498af2;
+	font-weight:bold;
+	margin-left: -70px;
+}
+#createaccount a{
+	color:#498af2;
+	text-decoration:none;
+} 
