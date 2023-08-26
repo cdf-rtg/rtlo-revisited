@@ -20,8 +20,8 @@ For the code files created to be displayed, create a folder named e.g. testingrt
 Edit the httpd-vhosts file in C:\xampp\apache\conf\extra with this 3 lines: 
 
 <VirtualHost *:80>
-          DocumentRoot C:/xampp/htdocs/testingrtlo
-</VirtualHost >
+  DocumentRoot C:/xampp/htdocs/testingrtlo
+< /VirtualHost>
 
 RTLO attacks on File extensions:  
 Through the research on RTLO, we applied our understanding by creating a RTLO file extension type of attack. In it we created a proof of concept(imagest.py) of the RTLO file extension attack whereby file exclusions would be discreetly added to avoid RTLO flagging. Iteration 2(install2.py) are attempts at applying it maliciously. Iteration 3(1stage.py and install.py) works as a stager attack and are as close as we got to an effective working attack. The executables for testing are stored in DIST folder.
