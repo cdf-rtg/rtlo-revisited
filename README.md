@@ -19,8 +19,8 @@ Other configurations:
 For the code files created to be displayed, create a folder named e.g. testingrtlo in C:\xampp\htdocs and place the files in that folder. 
 Edit the httpd-vhosts file in C:\xampp\apache\conf\extra with this 3 lines: 
 
-<VirtualHost *:80>
-  DocumentRoot C:/xampp/htdocs/testingrtlo
+<VirtualHost *:80>  
+  DocumentRoot C:/xampp/htdocs/testingrtlo  
 < /VirtualHost>
 
 RTLO attacks on File extensions:  
