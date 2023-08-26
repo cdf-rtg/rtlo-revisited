@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=B6h3Ao8G0yc&list=LL&index=5
 https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019  
 https://www.apachefriends.org/download.html  
 https://codepen.io/mnimmz/pen/yJwBYp  
-https://www.coderglass.com/html/gmail-style-login-page.php 
+https://www.coderglass.com/html/gmail-style-login-page.php
 https://pyinstaller.org/en/stable/
 https://pillow.readthedocs.io/en/stable/reference/Image.html
 https://py7zr.readthedocs.io/en/latest/user_guide.html
