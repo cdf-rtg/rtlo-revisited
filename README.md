@@ -19,9 +19,10 @@ Setup of DNS Server:
 2) Create a primary Forward Lookup Zone of name moc.elgoog
 3) Create a Reverse Lookup Zone and type the network ID as the first 3 octets of the DNS server's IP address
    e.g. 192.168.56
-4) Create a Host with IP address of the DNS server e.g. 192.168.56.6 under the Forward Lookup Zone moc.elgoog.
+5) Create a Host with IP address of the DNS server
+   e.g. 192.168.56.6 under the Forward Lookup Zone moc.elgoog.
    Ensure the FQDN is moc.elgoog.
-5) Create a Pointer Record (PTR) under the Reverse Lookup Zone previously created by browsing to select the host moc.elgoog.
+6) Create a Pointer Record (PTR) under the Reverse Lookup Zone previously created by browsing to select the host moc.elgoog.
    
 Other configurations:  
 For the code files created to be displayed, create a folder named e.g. testingrtlo in C:\xampp\htdocs and place the files in that folder. 
