@@ -12,8 +12,17 @@ Right-to-Left-Override (RTLO) is a Unicode character with the codepoint of U+202
 Our research on RTLO helped us to understand how the RTLO character can be applied in URLs to conduct an attack. Through our research, we created a proof-of-concept (POC) of a phishing attack conducted through a link to a domain, moc.elgoog, with RTLO applied to the front of it. The domain was created on a DNS server on a Windows Server 2019 virtual machine. Attached are the code files and the SQL file created for this POC. To connect to the domain for this POC, point the DNS server of any client virtual machine to the IP address of the DNS server. 
 
 Requirements:  
-- Windows Server 2019 VM with XAMPP 
+- Windows Server 2019 VM with DNS Server and XAMPP
 
+Setup of DNS Server: 
+1) Install DNS server and its features in Server Manager
+2) Create a primary Forward Lookup Zone of name moc.elgoog
+3) Create a Reverse Lookup Zone and type the network ID as the first 3 octets of the DNS server's IP address
+   e.g. 192.168.56
+4) Create a Host with IP address of the DNS server e.g. 192.168.56.6 under the Forward Lookup Zone moc.elgoog.
+   Ensure the FQDN is moc.elgoog.
+5) Create a Pointer Record (PTR) under the Reverse Lookup Zone previously created by browsing to select the host moc.elgoog.
+   
 Other configurations:  
 For the code files created to be displayed, create a folder named e.g. testingrtlo in C:\xampp\htdocs and place the files in that folder. 
 Edit the httpd-vhosts file in C:\xampp\apache\conf\extra with this 3 lines: 
