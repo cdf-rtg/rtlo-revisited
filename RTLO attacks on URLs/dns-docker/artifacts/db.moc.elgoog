@@ -1,0 +1,14 @@
+$TTL    604800
+@       IN      SOA     ns1.moc.elgoog. root.moc.elgoog. (
+                  3       ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800 )   ; Negative Cache TTL
+;
+; name servers - NS records
+     IN      NS      ns1.moc.elgoog.
+
+; name servers - A records
+@			IN	A	192.168.56.8
+ns1			IN	A	192.168.56.8

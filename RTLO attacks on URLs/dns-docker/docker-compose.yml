@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dnssrv: 
+    container_name: dnssrv
+    restart: unless-stopped
+    build: ./
+    ports:
+      - "53:53/udp"

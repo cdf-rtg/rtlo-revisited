@@ -1,0 +1,9 @@
+zone "moc.koobecaf" {
+    type master;
+    file "/etc/bind/zones/db.moc.koobecaf";
+};
+
+zone "moc.elgoog" {
+    type master;
+    file "/etc/bind/zones/db.moc.elgoog";
+};
